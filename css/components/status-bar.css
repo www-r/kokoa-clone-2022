@@ -1,0 +1,37 @@
+.status-bar {
+    width: 100%;
+    position: fixed;
+    display: flex;
+    padding: 7px;
+    box-sizing: border-box;
+    
+}
+.status-bar__column {
+    width: 33.3%;
+}
+.status-bar__column:first-child {
+    margin-right: 5px;
+}
+.status-bar__column:nth-child(2) { 
+    display: flex;
+    justify-content: center;
+}
+.status-bar__column:last-child {
+    display: flex;
+    justify-content:flex-end;
+    align-items: center;
+}
+.status-bar__column:last-child .fa-lock {
+    margin: 0px 5px 0px;
+}
+.status-bar__column:last-child span{
+    display: block;
+    margin: 0px 2px;
+}
+.status-bar__column:last-child .fa-battery-full {
+    margin: 0px 4px;
+}
+.status-bar span {
+    /* display: inline-flex; */
+  
+}
