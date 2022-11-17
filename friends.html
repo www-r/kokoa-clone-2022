@@ -38,25 +38,42 @@
             </span>
         </div>
     </header>
-
     <a id="friends-display-link" href="#">
         <i class="fa-solid fa-circle-info"></i>
         Friends' Names Display            
         <i class="fa-solid fa-chevron-right fa-xs"></i>    
     </a>
-
-    <div class="user-component">
-        <div class="user-component__column_right">
-            <img src="https://avatars.githubusercontent.com/u/3612017?s=48&v=4" alt="Nicolas-img" class="user-component__avatar">
-            <div class="user-component__text">
-                <h4 class="user-component__title">Nicolas</h4>
-                <h6 class="user-component__subtitle">dfdfdd</h6>
+    <main class="friends-screen">
+        <div class="user-component">
+            <div class="user-component__column_left">
+                <img src="https://avatars.githubusercontent.com/u/3612017?s=48&v=4" alt="Nicolas-img" class="user-component__avatar user-component__avatar--xl">
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Nicolas</h4>
+                    <!-- <h6 class="user-component__subtitle">dfdfdd</h6> -->
+                </div>
+        
             </div>
-            
-        </div>            
-        <div class="user-component__column_left"></div>
-    </div>
-    <div><span>Channel</span><i class="fa-solid fa-angle-up"></i></div>
+            <div class="user-component__column_right"></div>
+        </div>
+        <div class="friends-screen__channel">
+            <div class="friends-screen__channel-header">
+                <span>Channel</span>    
+                <i class="fa-solid fa-angle-up"></i>
+            </div>
+            <div class="user-component">
+                <div class="user-component__column_left">
+                    <img src="https://avatars.githubusercontent.com/u/3612017?s=48&v=4" alt="Channel-img" 
+                         class="user-component__avatar user-component__avatar--sm">
+                    <div class="user-component__text">
+                        <h4 class="user-component__title user-component__title--not-bold">Channel</h4>
+                        <!-- <h6 class="user-component__subtitle">dfdfdd</h6> -->
+                    </div>   
+                </div>
+                <div class="user-component__column_right">
+                    <span>2</span>
+                    <i class="fa-solid fa-chevron-right fa-xs"></i>
+                </div>    
+            </main>
     
     <nav class="nav">
         <ul class="nav__ul">

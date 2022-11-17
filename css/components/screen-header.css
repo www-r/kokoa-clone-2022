@@ -6,7 +6,7 @@
     /* width: 100%;
     box-sizing: border-box; */
     align-items: center;
-    padding: 25px;
+    padding: var(--horizontal-space);
 }
 .screen-header__title{
     font-size: 32px;
