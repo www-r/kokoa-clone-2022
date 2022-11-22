@@ -17,5 +17,12 @@
     /* display: inline-block;
     box-sizing: border-box; */
     margin-left: 25px;
+    position: relative;
     /* padding: 5px 0; */
+}
+
+.screen-header__gear-dot { 
+    position: absolute;
+    left: 21px;
+    bottom: 21px;
 }

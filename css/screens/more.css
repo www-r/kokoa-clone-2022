@@ -1,0 +1,44 @@
+
+.alert-icon {
+    color: red;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 12px;
+    height: 12px;
+    border: 1px solid red;
+    border-radius: 50%;
+    padding: 2px;
+    margin: 0 10px;
+
+}
+
+.more-suggestions {
+    margin-top: 40px;
+    border-top: 1px solid var(--grey);
+    padding-top: 20px;
+}
+.more-suggestions__header {
+    font-size: 17px;
+ 
+}
+.more-suggestions__apps {
+    display: flex;
+}
+.more-suggestions__app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 20px 20px 0;
+}
+.more-suggestions__app-image {
+    
+    width: 60px;
+    height: 60px;
+    background-color: rgb(255, 238, 0);
+    border-radius: 10px;
+}
+.more-suggestions__app span {
+    padding-top: 10px;
+    color: var(--grey);
+}

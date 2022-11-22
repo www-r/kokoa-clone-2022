@@ -1,0 +1,29 @@
+.icons-row {
+    margin: 20px 0;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.icons-row__icon {
+    padding-right: 5px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+}
+.icons-row__gear-dot.gear-dot {
+    position: absolute;
+    bottom: 67px;
+    left: 57px;
+}
+.icons-row__icon i {
+    font-size: 35px;
+}
+
+.icons-row__icon span {
+    margin-top: 18px;
+}

@@ -1,9 +1,9 @@
 .status-bar {
     width: 100%;
-    position: fixed;
     display: flex;
     padding: 7px;
     box-sizing: border-box;
+    position: fixed;
     
 }
 .status-bar__column {

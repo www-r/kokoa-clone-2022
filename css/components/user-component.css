@@ -1,4 +1,5 @@
 .user-component {
+    margin:20px 0;
     justify-content: space-between;
 }
 .user-component, 
@@ -34,5 +35,12 @@
     border-radius: 25px;
 }
 .user-component__column_right {
-    color: rgba(0,0,0,.5);
+    color: rgba(0,0,0,.4);
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.user-component__time {
+    display: block;
+    margin-bottom: 10px;
 }
