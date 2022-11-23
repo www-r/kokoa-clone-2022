@@ -9,7 +9,7 @@
     <title>Chat - Kokoa Clone</title>
 </head>
 
-<body>
+<body id="chatting__body">
     <div class="status-bar chatting__status-bar">
         <div class="status-bar__column">
             <span>No Service</span>
@@ -42,22 +42,31 @@
     <main class="main-screen main-chatting">
         <div class="chatting__timestamp">Tuesday, June 30, 2020</div>
         <div class="message-row">
-            <img class="message-row__img" src="" alt="">
+            <img class="message-row__img" src="https://avatars.githubusercontent.com/u/3612017?s=40&v=4" alt="">
             <div class="message-row__content">
-                <span class="message-row__author">Nicolas Serrano</span>
+                <div class="message-row__author">Nicolas Serrano</div>
                 <div class="">
                     <span class="message__bubble">Hi!</span>
                     <span class="message__time">21:27</span>
                 </div>
             </div>
         </div>  
-      </div>
-      <div class="chatting__chatline">
-        <div class="chatting__chatline-me">
-            <span>21:27</span><span>What's up?</span>
         </div>
-      </div>
+        <div class="message-row message-row-my">
+            <span class="message__bubble message__bubble-my">What's up?</span>    
+            <span class="message__time message__time-my">21:27</span>    
+        </div>
     </main>
 
+    <form action="" class="reply">
+        <div class="reply__column">
+            <i class="fa-regular fa-square-plus fa-2x"></i>
+        </div>
+        <div class="reply__column">
+            <input type="text" placeholder="Write a message">
+            <i class="fa-solid fa-face-smile fa-2x"></i>
+            <button><i class="fa-solid fa-arrow-up fa-2x"></i></button>
+        </div>
+    </form>
    
     <script src="https://kit.fontawesome.com/8f70f66fa4.js" crossorigin="anonymous"></script>
