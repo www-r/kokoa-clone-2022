@@ -23,6 +23,16 @@
     color: rgba(0,0,0,.5);
 
 }
+@keyframes hideSplashScreen {
+    from {
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+        visibility: hidden; /*사라진 건 아니다. 사라지게 하려면 js 이용해야함*/
+        /* display: none;  작동안함->버튼 누를 수 없음*/
+    } 
+}
 .splash-screen {
     background-color: var(--yellow);
     position: absolute; /*body기준으로 */
@@ -33,4 +43,6 @@
     justify-content: center;
     align-items: center;
     font-size: 132px;
+    animation: hideSplashScreen 1s ease-in-out forwards; /*forwards: 마지막속성 기억*/
+    animation-delay: 2s;
 }

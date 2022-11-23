@@ -1,4 +1,8 @@
 
+#find__body {
+    height: 150vh;
+}
+
 .recommended-friends {
     border-top: 1px solid var(--grey);
     border-bottom: 1px solid var(--grey);
@@ -68,7 +72,7 @@
     height: 120px;
     border-radius: 20px;
 }
-.open-post__column-right div {
+.open-post__heart-count {
     background-color: rgba(0,0,0,.5);
     color: #fff;
     width: 55px;
@@ -78,4 +82,22 @@
     position: absolute;
     bottom: 10px;
     right: 10px;
+}
+@keyframes heartBeat {
+    0%{
+        /* color: #fff; */
+       
+    }
+    50%{
+        color: red;
+        transform: scale(1.5);
+    }
+    100%{
+        /* color: white; */
+    }
+}
+.open-post__heart-count:hover i {
+    will-change: transform;
+    animation: heartBeat 2s linear infinite;
+
 }

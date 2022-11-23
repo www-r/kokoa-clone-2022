@@ -20,7 +20,18 @@
     position: relative;
     /* padding: 5px 0; */
 }
+@keyframes rotateGear {
+    from{
+        transform: none;
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
 
+.screen-header__icon .fa-gear:hover {
+    animation: rotateGear 1s linear infinite;
+} 
 .screen-header__gear-dot { 
     position: absolute;
     left: 21px;
